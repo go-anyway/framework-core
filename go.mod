@@ -227,26 +227,3 @@ require (
 	gorm.io/driver/postgres v1.6.0 // indirect
 )
 
-replace (
-	github.com/go-anyway/framework-cache => ../../optional/cache
-	github.com/go-anyway/framework-clickhouse => ../../optional/clickhouse
-	github.com/go-anyway/framework-config => ../config
-	github.com/go-anyway/framework-configcenter => ../../optional/configcenter
-	github.com/go-anyway/framework-cron => ../../optional/cron
-	github.com/go-anyway/framework-db => ../db
-	github.com/go-anyway/framework-elasticsearch => ../../optional/elasticsearch
-	github.com/go-anyway/framework-email => ../../optional/email
-	github.com/go-anyway/framework-errors => ../errors
-	github.com/go-anyway/framework-gateway => ../gateway
-	github.com/go-anyway/framework-hotreload => ../../optional/hotreload
-	github.com/go-anyway/framework-interceptor => ../../optional/interceptor
-	github.com/go-anyway/framework-log => ../log
-	github.com/go-anyway/framework-messagequeue => ../../optional/messagequeue
-	github.com/go-anyway/framework-metrics => ../../optional/metrics
-	github.com/go-anyway/framework-mongodb => ../../optional/mongodb
-	github.com/go-anyway/framework-oss => ../../optional/oss
-	github.com/go-anyway/framework-ratelimit => ../../optional/ratelimit
-	github.com/go-anyway/framework-trace => ../../optional/trace
-	github.com/go-anyway/framework-websocket => ../../optional/websocket
-	github.com/go-anyway/framework-xxljob => ../../optional/xxljob
-)
